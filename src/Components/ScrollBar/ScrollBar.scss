@@ -1,0 +1,21 @@
+.contain_scrollbar {
+
+    display: block;
+    height: 100%;
+    position: relative;
+    // width: 16px;
+    width: 100%;
+    background-color: aqua;
+
+    .scrollbar_parent {
+
+        bottom: 0;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        width: 16px;
+        background-color: red;
+
+    }
+
+}

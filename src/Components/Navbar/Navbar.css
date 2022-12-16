@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+
+
+.n-wrapper {
+
+
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.5rem 3.5rem;
+
+
+}
+
+.n-left {
+
+
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+
+
+
+}
+
+.n-name {
+    padding-left: 20px;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.n-name img {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+}
+
+.n-name h1 {
+    padding-left: 10px;
+
+    font-size: 1.2rem;
+    font-weight: 980;
+
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.n-name h1 span {
+
+    color: var(--green);
+
+}
+
+.n-name>span {
+
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--green);
+
+}
+
+
+.n-right {
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    align-items: center;
+    font-weight: 400;
+
+
+}
+
+.n-list {
+
+    flex: 10;
+
+
+}
+
+.n-list>ul {
+
+
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+
+}
+
+.n-list>ul>li {
+    transition: all 0.5s ease;
+}
+
+.n-list>ul>li:hover {
+    cursor: pointer;
+    color: var(--green);
+}
+
+n-button {
+
+    flex: 2;
+
+}

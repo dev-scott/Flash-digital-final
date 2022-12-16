@@ -1,0 +1,257 @@
+.contain_about {
+
+    margin-top: 60px;
+    width: 100%;
+    height: 50vh;
+    // background: var(--green);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+
+    padding: 0.5rem 3.5rem;
+
+    @media(max-width:1500px) {
+
+
+        // margin: 0;
+        // margin: 40px;
+
+        // width: 300px;
+        padding: 0;
+    }
+
+    .a_left {
+
+        // background-color: red;
+
+        width: 45%;
+        // flex: 1;
+        height: 100%;
+        // background: red;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        // background-color: red;
+
+        .a_img {
+
+            // background: pink;
+
+            height: 100%;
+
+
+            margin-right: 15px;
+            padding-bottom: 50px;
+
+            img {
+                height: 120%;
+                // padding-bottom: 30px;
+            }
+
+        }
+
+        @media(max-width:1500px) {
+
+            align-items: center;
+            display: none;
+
+
+        }
+
+
+    }
+
+
+    .a_right {
+        z-index: 10;
+
+        width: 55%;
+        height: 100%;
+
+        // background: var(--brown);
+        // width: ;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-right: 20px;
+        min-width: 100px;
+
+        @media(max-width:1500px) {
+
+            align-items: center;
+            width: fit-content;
+            margin: 0;
+            margin: 80px 20px;
+            margin-top: 60px;
+            // margin: 40px;
+
+            // width: 300px;
+
+        }
+
+        @media(max-width:800px) {
+
+            width: fit-content;
+            height: fit-content; // margin: 40px;
+
+            // width: 300px;
+
+        }
+
+        // @media(max-width:800px) {
+
+        //     width: 200px;
+        //     // margin: 40px;
+
+        //     // width: 300px;
+
+        // }
+
+        .a_text {
+            padding: 20px 40px;
+
+            background: var(--brown);
+
+            width: 652px;
+            height: 100%;
+            // background-color: pink;
+            margin-left: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            @media(max-width:800px) {
+
+                width: fit-content;
+                height: fit-content; // margin: 40px;
+
+                // width: 300px;
+
+            }
+
+            @media(max-width:550px) {
+
+                // width: 100%;
+                // width: 620px;
+                // height: 400px;
+                margin: 0;
+
+            }
+
+
+            h1 {
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 38.9444px;
+                line-height: 50px;
+
+                // color: #FFFFFF;
+
+                background-color: var(--green);
+                // height: 100%;
+                color: white !important;
+                padding: 5px 5px;
+
+                @media(max-width:550px) {
+
+                    font-size: 19px;
+
+                }
+
+
+            }
+
+
+            p {
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17.525px;
+                line-height: 26px;
+
+                @media(max-width:638px) {
+
+                    font-size: 11px;
+
+                    span {
+
+                        display: none;
+
+                    }
+
+                }
+
+                // color: rgba(0, 0, 0, 0.5);
+
+            }
+
+            .other_information {
+
+                width: 600px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                @media(max-width:800px) {
+
+                    width: 100%;
+                    // margin: 40px;
+
+                    // width: 300px;
+                    // background-color: red;
+
+                }
+
+                .floating-div {}
+
+                .trousieme {
+
+                    display: none;
+                }
+
+            }
+
+        }
+
+        @media(max-width:530px) {
+
+            // padding: 20px 0px;
+            width: 100%;
+            // background: red;
+
+            .other_information {
+
+                width: 100%;
+
+            }
+
+
+        }
+
+        @media(max-width:550px) {
+
+            padding: 0.5rem 0;
+            // background-color: red;
+            width: 100%;
+            margin: 0;
+
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+
+    }
+
+
+}
